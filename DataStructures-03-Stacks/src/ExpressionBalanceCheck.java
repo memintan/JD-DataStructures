@@ -12,7 +12,7 @@ public class ExpressionBalanceCheck {
     }
 
     public static boolean balanceCheck(String expr){
-        MyStack<Character> myStack=new MyStack<Character>();
+        MyStack<Character> myStack=new MyStack<>();
 
         for (int i=0; i<expr.length();i++){
             Character ch=expr.charAt(i);
