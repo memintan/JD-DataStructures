@@ -39,7 +39,7 @@ public class MyLinkedList {
         if (isEmpty()) throw new NoSuchElementException();
         System.out.println("Deleting last :"+ last.value);
         if (first==last) first=last=null;
-        else {
+        else { // more than one node
             var previous = first;
             var current= first;
             while (current.next !=null){
