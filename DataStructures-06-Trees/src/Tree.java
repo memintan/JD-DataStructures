@@ -43,7 +43,7 @@ public class Tree {
     }
     private void traversePreOrder(Node root){
         if (root == null) return;
-        System.out.println(root.value + ", ");
+        System.out.print(root.value + ", ");
         traversePreOrder(root.leftChild);
         traversePreOrder(root.rightChild);
     }
