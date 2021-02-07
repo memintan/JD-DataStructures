@@ -7,10 +7,10 @@ public class MainAppTrees {
         System.out.println("Pre-Order Traversal Tree =>");
         myTree.traversePreOrder();
         System.out.println();
-        System.out.println("In-Order Traversal Tree=>");
+        System.out.println("In-Order Traversal Tree =>");
         myTree.traverseInOrder();
         System.out.println();
-        System.out.println("Post-Order Traversal Tree=>");
+        System.out.println("Post-Order Traversal Tree =>");
         myTree.traversePostOrder();
     }
 }
